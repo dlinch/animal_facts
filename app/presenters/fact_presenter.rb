@@ -11,4 +11,7 @@ class FactPresenter < SimpleDelegator
     @fact_object.fetch('_id')
   end
 
+  def as_json(*_args, **_kwargs)
+    {text: text, id: id}.to_json
+  end
 end
