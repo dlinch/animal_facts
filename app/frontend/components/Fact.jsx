@@ -1,8 +1,9 @@
 import React from 'react';
+import "./container.css";
 
 const Fact = ({fact}) => {
   return (
-    <div>
+    <div className="cell small-4 card">
       {fact.text}
     </div>
   )
