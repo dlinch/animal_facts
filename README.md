@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To get started, download the project and run `bundle install && npm install`.
 
-Things you may want to cover:
+Ensure you have foreman installed, then run `foreman start -f Procfile.dev`.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Visit `localhost:5100` to see the application.
